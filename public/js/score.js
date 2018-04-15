@@ -32,7 +32,7 @@ document.getElementById('curve2').addEventListener('alongpath-trigger-activated'
         if (collisionCar) {
             var score = localStorage.getItem('score_vr_race');
             localStorage.setItem('score_vr_race', 0);
-            alert('Você Bateu ! Sua Pontuação foi de ' + score);
+            alert('Você Bateu ! Sua Pontuação foi: ' + score);
             starttime = updatetime;
             clearInterval(timerIdCar);
         }
